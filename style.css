@@ -1,0 +1,589 @@
+
+body{background-image: url(https://htmlcolorcodes.com/assets/images/colors/baby-blue-color-solid-background-1920x1080.png);
+    background-repeat: ;
+    background-size: 1500px 700px;        
+
+    } 
+
+
+.menu ul {
+    text-align: center;
+    padding-top: 20px;
+    padding bottom: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.menu {
+	overflow: auto;
+	}
+	.menu ul {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 100px;
+	text-decoration: none;
+	}
+	.menu li {
+	display: inline-block;
+	text-align: center;
+	}
+	.menu li a {
+	display: inline-block;
+	height: auto;
+	width: 500px;
+	color: #333333;
+   padding: 100px;
+	background-color: #f6c8a5;
+	margin: 20px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "bungee spice" ;
+	border-radius: 7px;
+	}
+	
+	
+	.menu li a:hover {
+	background-color: #ef8e44;
+	}
+
+
+
+
+
+
+
+
+    .side-menu {
+        overflow: auto;
+        }
+        .side-menu ul {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 100px;
+        text-decoration: none;
+        }
+        .side-menu li {
+        display: inline-block;
+        text-align: right;
+        }
+        .side-menu li a {
+        display: inline-block;
+        height: auto;
+        width: 100px;
+        color: #333333;
+        padding: 285px;
+        background-color: #f6c8a5;
+        margin: 20px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'cairo style';
+        border-radius: 7px;
+        }
+        
+        
+        .side-menu li a:hover {
+        background-color: #ef8e44;
+        }
+    
+
+
+    
+
+
+
+
+
+        
+    .e-menu {
+        overflow: auto;
+        }
+        .side-menu ul {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 100px;
+        text-decoration: none;
+        }
+        .e-menu li {
+        display: inline-block;
+        text-align: left;
+        }
+        .e-menu li a {
+        display: inline-block;
+        height: auto;
+        width: 100px;
+        color: #333333;
+        padding: 285px;
+        background-color: #f6c8a5;
+        margin: 20px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "bungee spice" ;
+        border-radius: 7px;
+        }
+        
+        
+        .e-menu li a:hover {
+        background-color: #ef8e44;
+        }
+    
+
+
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+
+
+
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #ee893b;
+      }
+
+
+
+
+      
+      .topnav a {
+        float: 50;
+        color: #f2f2f2;
+        text-align: left;
+        padding: 35px 50px; 
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #e0b424;
+        color: white;
+        position: sticky;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      a {text-decoration : none;}.
+
+
+
+
+
+.colored-heading{
+     color: rgb(48, 73, 172);
+}
+
+
+.heading-sizes-largest{
+    font-size: 300;
+}
+
+
+.weight-bold{
+    font-weight: bold;
+}
+
+ .mini-subtitle{
+    font-size: 80;
+ }
+
+ .mini-subtitle-under{
+    font-size: 50; 
+ }
+
+ 
+.passage-handwritting-e{
+    font-size: 30px;
+   
+}
+
+
+ @font-palette-values --custom{
+    font-family : Nabla;
+    base-palette:3 ;
+}    
+ 
+
+#semi-cool-textcolored{
+    line-height: 5em;
+}
+
+
+.arabic-font{
+    font-family: 'cairo play';
+    font-palette:--custom
+}
+
+ .cool {
+      font-family: 'Nabla'; 
+      font-palette: --custom 
+                                     }  
+
+ .semi-cool{
+   font-family: 'Bungee Spice'; 
+   font-palette: --custom 
+                 }
+
+.titles{
+    font-family: 'Foldit';
+    font-palette:--custom
+}
+
+@font-palette-values  --custom{
+    font-family :Foldit;
+    base-palette: 4;
+}
+
+
+.passage{
+    font-size: 60;
+}
+                               
+
+@font-palette-values  --custom{
+    font-family :Bungee Spice;
+    base-palette: 2;
+} 
+
+
+
+/* mouse over link */
+a:hover {
+    color: #c50e0e;
+  }
+
+
+.links{
+    font-size: 30;
+}
+
+
+
+.arabic-size{
+    font-size: 80px;
+}
+
+#learning{
+    font-size: 50px;
+}
+
+
+.titles-inside{
+    font-size: 70px;
+}
+   
+
+.comment-box {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+
+.comment-box h1{
+  font-size: 50px;
+}
+
+.comment-box textarea:focus{
+  border: #F36F25 1px solid;
+  outline:0;
+}
+
+.comment-box button{
+  border:0;
+  padding: 10px 30px ;
+  background-color: #F36F25; 
+  font-size: 18px;
+}
+
+.comment-box textarea{
+  width: 100%;
+  height: 150%;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+ 
+  
+
+
+.titlrr{
+  font-size: 45;
+}
+
+.tt{
+  font-size: 40;
+}
+
+.passage--e{
+  font-size: 20;
+}
+
+.note{
+  font-weight: bolder;
+}
+
+.huge{
+  font-size: 100;
+}
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|Josefin+Sans");
+
+html,body {
+color:#fddaec;
+font-size:100%;
+height:100%;
+line-height:1.45;
+}
+
+
+/* Video Overlay */
+
+#overlay {
+background-color:rgba(0,0,0,.65);
+height:100%;
+left:0;
+position:relative;
+top:0;
+transition:background-color 300ms ease;
+width:100%;
+}
+
+.fade { background-color:rgba(0,0,0,.85) !important; }
+
+
+/* Hero Video + Fallback */
+
+#hero-vid {
+backface-visibility:hidden;
+background:url("code1vid.mp4") no-repeat scroll 0 0 #000;
+background-size:cover;
+bottom:0;
+height:auto;
+min-height:100%;
+min-width:100%;
+perspective:1000;
+position:fixed;
+right:0;
+width:auto;
+z-index: index -1;
+}
+
+#hero-pic {
+display:block;
+height:auto;
+width:100%;
+}
+
+#hero-vid2 {
+  backface-visibility:hidden;
+  background:url("code1vid.mp4") no-repeat scroll 0 0 #000;
+  background-size:cover;
+  bottom:0;
+  height:auto;
+  min-height:100%;
+  min-width:100%;
+  perspective:1000;
+  position:fixed;
+  right:0;
+  width:auto;
+  z-index: index -1;
+  }
+
+
+#state {
+background-color:rgba(0,0,0,.5);
+bottom:0;
+cursor:pointer;
+font-size:2.25em;
+left:0;
+padding:1.5rem 2.5rem;
+position:absolute;
+width:31px;
+}
+
+
+/* Content Styles */
+
+#title {
+backface-visibility:hidden;
+left:0;
+perspective:1000;
+position:fixed;
+width:100%;
+}
+
+#title h1 {
+background-color:rgba(0,0,0,.5);
+font-family:"Poiret One", sans-serif;
+font-size:2.5em;
+padding:.5em .725em;
+}
+
+#content {
+background-color:#151515;
+padding:2em;
+position:relative;
+z-index:1;
+}
+
+#content p {
+font-size:1.25em;
+letter-spacing:.02em;
+margin-bottom:1.3em;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width:768px) {
+    #overlay { height:auto; }
+}
+
+
+/* Visibility Helpers */
+
+@media only screen and (min-width:769px) {
+    .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .visible-mobile,.hidden-tablet,.visible-desktop { display:none !important; }
+}
+
+@media only screen and (max-width:479px) {
+    .hidden-mobile,.visible-tablet,.visible-desktop { display:none !important; }
+}
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:300');
+
+ body {
+	 margin: 0;
+	 padding-bottom: 20px;
+	 font-family: 'Nunito', sans-serif;
+	 color: white;
+     background-color: black;
+}
+.wrapper{
+    background-color: #12192c;
+    position: relative;
+    width:30%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+ .header {
+	 position: relative;
+	 text-align: center;
+   
+}
+header h1{
+  color:#b61818;
+}
+ form {
+	 margin: 0 auto;
+	 max-width: 16rem;
+	 overflow: auto;
+}
+ form > * + * {
+	 margin-top: 1rem;
+}
+ form > input {
+	 border: 0;
+	 border-bottom: 1px solid white;
+	 border-radius: 0;
+	 width: 100%;
+	 height: 2rem;
+	 padding: 0 0 0.25rem 0;
+	 font-size: .8rem;
+	 color: white;
+	 background: transparent;
+}
+ form > input:focus {
+	 outline: none;
+}
+ form > input::placeholder {
+	 color: white;
+}
+ form > button {
+	 margin-top: 2rem;
+	 border: 0;
+	 border-radius: 200px;
+	 width: 100%;
+	 padding: 0.85rem;
+	 font-size: 1rem;
+	 color: #000;
+	 background: #f57403;
+}
+ form > button:focus {
+	 outline: none;
+}
+ form > p {
+	 text-align: center;
+	 color: white;
+}
+ .sign-up {
+	 display: none;
+}
+ .opposite-btn1, .opposite-btn2 {
+	 cursor: pointer;
+}
+
+.credit{
+    text-align: center;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.credit a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}  
+

@@ -1,0 +1,64 @@
+<html lang="ar" dir="rtl">
+
+
+<head>
+<meta charset="utf-8">
+
+<link href="style.css" rel="stylesheet">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Anuphan:wght@300;500&family=Bungee+Spice&family=Cairo+Play:wght@400;500;700&family=Cairo:wght@300;500;800&family=Chakra+Petch:ital,wght@0,500;1,300;1,400&family=Foldit:wght@500&family=Lato:ital,wght@0,300;0,700;1,400&family=Nabla&family=Oswald:wght@300;700&family=Reem+Kufi+Fun:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+     
+    <h1 class="arabic-font titles-inside">اضافة نص الcss</h1>
+
+    <p>وهناك ثلاث طرق لإضافة كود CSS لتنسيق صفحات الويب: </p>
+
+    <center  class="arabic-font ">
+        
+        <a href="#inline">طريقة Inline CSS</a><br/>
+        <a href="#internal">طريقة Internal CSS </a><br/> 
+        <a href="#external">طريقة External CSS</a><br/>
+                                                            </center>
+
+    <p>
+    <h2 class="arabic-font" id="inline"> طريقة Inline CSS</h2>
+    <p class="arabic-font">وهي طريقة يمكن استخدامها في حال كان هناك تنسيق مُختلف لكل عنصر. ويكون التنسيق مكتوب بداخل العنصر المراد تنسيقه وذلك بإضافة السمة style والتي من الممكن أن تحتوي على خصائص CSS. مثال على ذلك:</p>  
+    <img src="arabic3.bmp">
+    <p class="arabic-font">يوضح الكود في المثال أعلاه كيفية استخدام التصميم المضمن. يحتوي عنصر h1 على سمة نمط داخل علامة الفتح الخاصة به. بعد ذلك ، يتم تعيين سمة النمط على أنها مساوية لـ color: blue ؛ والتي ستعمل على ضبط لون نص الرأس على اللون الأزرق داخل المتصفح.
+        وينطبق الشيء نفسه على عنصر الفقرة حيث يتم تعيين سمة النمط لتساوي اللون الوردي بحيث يتم عرض الفقرة باللون الوردي داخل المتصفح</p>
+    <p class="arabic-font">إذا كنت ترغب في إضافة أكثر من نمط مع أنماط مضمنة ، فما عليك سوى الاستمرار في الإضافة إلى سمة النمط. تأكد من إنهاء الأنماط بفاصلة منقوطة (؛).</p>
+    <center><img src="ar4.bmp"></center>
+    <p class="arabic-font">من المهم معرفة أن الأنماط المضمنة هي طريقة سريعة لتصميم عنصر HTML مباشرةً ، ولكن نادرًا ما يتم استخدامها عند إنشاء مواقع الويب. ولكن قد تواجه ظروفًا يكون فيها التصميم الداخلي ضروريًا ، لذا فإن فهم كيفية عمله والتعرف عليه في كود HTML يعد معرفة جيدة.</p>
+
+    <p>
+        <h2 class="arabic-font" id="internal">طريقة Internal CSS</h2>
+        <p class="arabic-font">وهي طريقة يمكن استخدامها في حال هناك تنسيق مختلف لكل صفحة ويب ويكون التنسيق مكتوب داخليًا في ملف HTML وتحديدًا في داخل العنصر < style><br> الموجود في داخل العنصر . مثال على ذلك: </p>
+        <img src="ar5.bmp">
+        <p class="arabic-font">ما ذكرنا سابقًا ، لا تعد الأنماط المضمنة أفضل طريقة لتصميم عناصر HTML.<br>
+            لحسن الحظ ، تسمح لك HTML بكتابة كود CSS في قسمها المخصص مع وجود عنصر < style> متداخل داخل عنصر < head>. غالبًا ما يُشار إلى كود CSS الموجود داخل عنصر < style> بصفحة أنماط داخلية.</p>
+        <p class="arabic-font">تحتوي ورقة الأنماط الداخلية على مزايا معينة وحالات استخدام على الأنماط المضمنة ، ولكنها مرة أخرى ليست أفضل الممارسات. ومع ذلك ، فإن فهم كيفية استخدام أوراق الأنماط الداخلية هو معرفة مفيدة.</p>
+        <p class="arabic-font">لإنشاء ورقة أنماط داخلية ، يجب وضع عنصر < style> داخل عنصر < head>.</p>
+        <center><img src="ar6.bmp"></center>
+        <p class="arabic-font">بعد إضافة علامات الفتح والإغلاق < style> في قسم الرأس ، يمكنك البدء في كتابة كود CSS.</P>
+        <center><img src="ar7.bmp"></center>
+
+    <p>
+       <h2 class="arabic-font" id="external">طريقة External CSS </h2>
+       <p class="arabic-font">وهي عبارة عن External Style Sheet أو ملف منفصل يوجد فيه جميع التنسيقات ويمكنك تغيير تنسيق موقع كامل من ملف واحد فقط، ويجب لكل ملف HTML أن يحتوي على ما يشير لملف التنسيق CSS وذلك يكون عن طريق العنصر في ملف HTML. مثال على طريقة إضافة ملف CSS والإشارة له عن طريق العنصر من HTML:<p>
+       <img src="ar8.bmp">
+       <p class="arabic-font">يتجنب المطورون خلط التعليمات البرمجية عن طريق تخزين كود HTML و CSS في ملفات منفصلة (تحتوي ملفات HTML على كود HTML فقط ، وتحتوي ملفات CSS على كود CSS فقط).</p>
+       <p class="arabic-font">باستخدام ورقة الأنماط الخارجية ، يمكنك كتابة جميع تعليمات CSS البرمجية اللازمة لتصميم صفحة دون التضحية بقابلية قراءة ملف HTML الخاص بك وقابلية صيانته.</p>
+
+
+
+
+
+        
+ 
